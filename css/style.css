@@ -680,10 +680,6 @@ p {
   padding: 100px 0;
 }
 
-.footer-info {
-  margin-right: 120px;
-}
-
 .footer-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -735,10 +731,6 @@ p {
 .footer-socials-link:hover,
 .footer-socials-link:focus {
   background-color: var(--color-accent);
-}
-
-.footer-info {
-  margin-right: 120px;
 }
 
 .footer-socials-title {
@@ -1372,10 +1364,6 @@ p {
 .footer-container {
   display: flex;
   align-items: baseline;
-}
-
-.footer-info {
-  flex-shrink: 0;
 }
 
 .footer-subscribe {
