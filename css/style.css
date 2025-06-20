@@ -1336,13 +1336,6 @@ p {
   margin-right: 120px;
 }
 
-.footer-socials {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-  min-width: 208px; /* або більше, щоб текст “Subscribe” не падав */
-}
-
 .subscribe-form {
   display: flex;
   gap: 24px;
@@ -1389,13 +1382,6 @@ p {
 
 .footer-info {
   flex-shrink: 0;
-}
-
-.footer-socials {
-  flex-shrink: 0;
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
 }
 
 .footer-subscribe {
