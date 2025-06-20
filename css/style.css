@@ -1826,7 +1826,6 @@ input[type="checkbox"]:checked + .checkbox-label .custom-checkbox {
   outline: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   resize: none;
-  margin-bottom: 24px;
 }
 
 /* 7. Checkmark (span, .custom-checkbox) */
