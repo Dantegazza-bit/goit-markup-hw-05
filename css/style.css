@@ -741,12 +741,6 @@ p {
   margin-right: 120px;
 }
 
-.footer-socials {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-}
-
 .footer-socials-title {
   font-size: 16px;
   font-weight: 500;
