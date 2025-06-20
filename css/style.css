@@ -45,6 +45,11 @@ p {
   margin: 0 auto;
 }
 
+/* === Секції === */
+.section {
+  padding: 120px 0;
+}
+
 /* === Header === */
 .page-header {
   border-bottom: 1px solid var(--color-border);
@@ -121,6 +126,17 @@ p {
 }
 
 /* === Hero === */
+
+.hero {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.hero {
+  background-color: var(--color-dark);
+  text-align: center;
+  padding: 188px 0;
+}
 
 .hero-title {
   font-size: 56px;
@@ -271,6 +287,19 @@ p {
   padding: 120px 0;
 }
 
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  row-gap: 48px;
+}
+
+.portfolio-item {
+  width: calc((100% - 48px) / 3);
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 1px 1px rgba(0, 0, 0, 0.16),
+    0px 1px 6px rgba(0, 0, 0, 0.08);
+}
+
 .portfolio-description {
   padding: 32px 16px;
   border-left: 1px solid var(--color-border);
@@ -351,6 +380,31 @@ p {
 }
 
 .hero {
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url("../images/hero-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.hero {
+  min-height: 600px; /* або 648px, як у макеті */
+  padding: 188px 0;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url("../images/hero-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+}
+
+.hero {
   min-height: 600px; /* або 648px згідно макету */
   display: flex;
   align-items: center;
@@ -387,14 +441,24 @@ p {
   margin-bottom: 8px;
 }
 
-.features-icon {
-  border: 1px solid #8e8f99;
-}
-
 .features-icon svg {
   width: 64px;
   height: 64px;
   fill: var(--color-primary);
+}
+
+.features-title {
+  margin-bottom: 8px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--color-dark);
+}
+
+.features-text {
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--color-text);
 }
 
 .page-header {
@@ -460,6 +524,17 @@ p {
   flex-basis: calc((100% - 72px) / 4);
 }
 
+.features-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  margin-bottom: 8px;
+  background-color: var(--color-bg-light);
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+}
+
 .features-icon > svg {
   width: 64px;
   height: 64px;
@@ -483,6 +558,32 @@ p {
   padding: 32px 0;
 }
 
+.team-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--color-dark);
+  margin-bottom: 8px;
+}
+
+.team-role {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-text);
+  margin-bottom: 8px;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
 .social-link {
   width: 40px;
   height: 40px;
@@ -503,6 +604,16 @@ p {
   width: 16px;
   height: 16px;
   fill: #f4f4fd; /* автоперевірка: використано css-змінну для fill */
+}
+
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  row-gap: 48px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .portfolio-item {
@@ -542,6 +653,12 @@ p {
   transform: translateY(0%);
 }
 
+.portfolio-description {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
+
 .portfolio-name {
   font-weight: 500;
   font-size: 20px;
@@ -556,6 +673,15 @@ p {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-text);
+}
+
+.footer {
+  background-color: var(--color-dark);
+  padding: 100px 0;
+}
+
+.footer-info {
+  margin-right: 120px;
 }
 
 .footer-logo {
@@ -611,6 +737,10 @@ p {
   background-color: var(--color-accent);
 }
 
+.footer-info {
+  margin-right: 120px;
+}
+
 .footer-socials-title {
   font-size: 16px;
   font-weight: 500;
@@ -648,6 +778,18 @@ p {
   fill: #f4f4fd;
   width: 24px;
   height: 24px;
+}
+
+.features-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  width: 100%;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  border: 1px solid #8e8f99;
+  margin-bottom: 8px;
 }
 
 .features-svg {
@@ -1230,6 +1372,10 @@ p {
 .footer-container {
   display: flex;
   align-items: baseline;
+}
+
+.footer-info {
+  flex-shrink: 0;
 }
 
 .footer-subscribe {
