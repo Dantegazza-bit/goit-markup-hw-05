@@ -849,18 +849,6 @@ p {
   pointer-events: none;
 }
 
-.modal {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 408px;
-  min-height: 584px;
-  padding: 72px 24px 24px 24px;
-  background-color: #fff;
-  border-radius: 4px;
-  transform: translate(-50%, -50%);
-}
-
 .modal-submit-btn:hover,
 .modal-submit-btn:focus {
   background-color: var(--color-accent);
@@ -882,18 +870,6 @@ p {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
-}
-
-.modal {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 408px;
-  padding: 24px;
-  background-color: #fff;
-  border-radius: 4px;
-  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.2);
 }
 
 .modal-close-btn {
