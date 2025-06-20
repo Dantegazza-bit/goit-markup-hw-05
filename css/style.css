@@ -127,17 +127,6 @@ p {
 
 /* === Hero === */
 
-.hero {
-  max-width: 1440px;
-  margin: 0 auto;
-}
-
-.hero {
-  background-color: var(--color-dark);
-  text-align: center;
-  padding: 188px 0;
-}
-
 .hero-title {
   font-size: 56px;
   line-height: 1.07;
@@ -388,20 +377,6 @@ p {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-}
-
-.hero {
-  min-height: 600px; /* або 648px, як у макеті */
-  padding: 188px 0;
-  background-image: linear-gradient(
-      rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)
-    ),
-    url("../images/hero-bg.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  text-align: center;
 }
 
 .hero {
