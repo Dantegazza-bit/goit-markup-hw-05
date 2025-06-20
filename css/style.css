@@ -1810,3 +1810,7 @@ input[type="checkbox"]:checked
 .subscribe-input::placeholder {
   color: #ffffff;
 }
+
+.footer-subscribe {
+  margin-left: auto;
+}
