@@ -779,20 +779,6 @@ p {
   pointer-events: none;
 }
 
-.modal {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 408px;
-  min-height: 584px;
-  background-color: var(--color-white);
-  border-radius: 4px;
-  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 1px 3px rgba(0, 0, 0, 0.12);
-  padding: 24px;
-}
-
 .modal-close-btn {
   position: absolute;
   top: 24px;
@@ -871,19 +857,6 @@ p {
 
 .modal-close-icon {
   fill: #2e2f42;
-}
-
-.modal {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 408px;
-  padding: 72px 24px 24px;
-  background-color: var(--color-white);
-  border-radius: 4px;
-  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 1px 6px rgba(0, 0, 0, 0.12);
 }
 
 /* Кнопка закриття */
@@ -981,20 +954,6 @@ p {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
-}
-
-.modal {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 408px;
-  min-height: 584px;
-  background-color: #fff;
-  border-radius: 4px;
-  padding: 72px 24px 24px;
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 4px 4px rgba(0, 0, 0, 0.12),
-    1px 4px 6px rgba(0, 0, 0, 0.2);
 }
 
 .modal-close-btn {
@@ -1142,11 +1101,6 @@ p {
   align-items: center;
   gap: 4px;
   flex-wrap: nowrap;
-}
-
-.modal {
-  background: #fcfcfc;
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-close-btn {
@@ -1469,20 +1423,6 @@ input[type="checkbox"]:checked + .checkbox-label .custom-checkbox {
   pointer-events: none;
 }
 
-/* modal */
-.modal {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 408px;
-  padding: 72px 24px 24px;
-  background-color: #fff;
-  border-radius: 4px;
-  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 1px 6px rgba(0, 0, 0, 0.12);
-}
-
 /* modal close */
 .modal-close-btn {
   position: absolute;
@@ -1598,13 +1538,6 @@ input[type="checkbox"]:checked + .checkbox-label .custom-checkbox {
 .modal-submit-btn:hover,
 .modal-submit-btn:focus {
   background-color: #404bbf;
-}
-
-/* 1. Модальне вікно */
-.modal {
-  background-color: #fcfcfc;
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 /* 3. Input поля */
